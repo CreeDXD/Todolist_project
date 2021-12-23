@@ -4,10 +4,11 @@ function addToDo(){
     toDo.textContent = document.getElementById("ToDo").value;
     
     let newInput = document.createElement('button');
-    newInput.textContent = "suprimer";
+    newInput.innerHTML = "&#10006;";
     newInput.addEventListener('click', () => toDo.remove());
     toDo.appendChild(newInput);
 
     document.getElementById("liste").appendChild(toDo);
+    document.getElementById("ToDo").value = "";
 }
 

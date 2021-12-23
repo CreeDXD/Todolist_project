@@ -2,3 +2,25 @@ body{
     background-color:#1e3799;
     color: white;
 }
+
+li > button{
+    margin-left: 5px;
+}
+
+h1{
+    text-align: center;
+    margin-top:10%;
+}
+
+.addToDo{
+    text-align: center;
+}
+
+.addToDo > input{
+    margin-left: 5px;
+}
+
+#liste{
+    text-align: center;
+    list-style-type: none;
+}
