@@ -21,6 +21,9 @@ h1{
 }
 
 #liste{
-    text-align: center;
     list-style-type: none;
+}
+
+ul{
+    text-align: center;
 }
